@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Demo Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cloud Computing Overview</h1>
+    <p>Learn about different cloud types and how AWS fits in!</p>
+  </header>
+
+  <section id="cloud-types">
+    <h2>Types of Cloud</h2>
+    <ul>
+      <li><strong>Public Cloud:</strong> A cloud environment that is owned and operated by a third-party cloud provider and delivered over the internet.</li>
+      <li><strong>Private Cloud:</strong> A cloud infrastructure operated solely for a single organization, either on-premises or hosted by a third party.</li>
+      <li><strong>Hybrid Cloud:</strong> A mix of on-premises infrastructure with public cloud services, enabling data and applications to be shared between them.</li>
+    </ul>
+  </section>
+
+  <section id="aws">
+    <h2>AWS Cloud</h2>
+    <p>Amazon Web Services (AWS) provides cloud computing solutions, offering compute power, storage, and networking capabilities.</p>
+    <p>AWS is widely used for its flexibility, scalability, and comprehensive service offerings including EC2, S3, Lambda, and RDS.</p>
+    <button onclick="showAwsInfo()">Learn More About AWS</button>
+    <div id="aws-info" style="display: none;">
+      <p>AWS offers solutions in various sectors like computing (EC2), storage (S3), and databases (RDS).</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Cloud Computing Demo | Powered by Node.js & AWS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
